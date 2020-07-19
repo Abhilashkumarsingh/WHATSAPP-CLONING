@@ -1,0 +1,29 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.container{
+	text-align:center;
+	margin:0px auto;
+	width:300px;
+	height:250px;
+	display:block;
+	margin-top:10%;
+	border:1px black solid;
+	padding:10px;
+}
+
+.container input{
+	margin-top:10px;
+	padding:3px 5px;
+}
+
+.container h2{
+	margin-bottom:50px;
+}
+
+a{
+	text-decoration:none;
+}
+ 

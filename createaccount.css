@@ -1,0 +1,116 @@
+body
+{
+	margin:0;
+	padding:0px;
+	font-family:sans-serif;
+	background-color:rgb(30,144,255);
+	
+	
+}
+
+.sign-up-form
+{
+	width:97%;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	background:#fff;
+	padding:10px;
+	margin:5% auto 0;
+	text-align:center;
+	background-color:rgb(245,241,240);
+	height:80vh;
+	margin-bottom:2%;
+	margin-top:1%;
+}
+
+
+.sign-up-form h1
+{
+	color:black;
+	margin-bottom:25px;
+}
+.same{
+	display:block;
+	width:500px;
+	height:350px;
+	margin-top:65%;
+	margin-right:25%;
+	background-color:white;
+	padding-bottom:82px;
+	padding-top:1px;
+	margin-left:20%;
+	margin:2% auto 0;
+
+}
+.input-box
+{
+	#border-radius:20px;
+	padding:8px;
+	margin:7px 0;
+	
+	border:1px solid #999;
+	outline:none;
+	height:30;
+}
+.same .page input["submit"]
+{
+	color:#fff;
+	width:93%;
+	padding:8px;
+	#border-radius:20px;
+	font-size:15px;
+	margin:10px 0;
+	border:none;
+	outline:none;
+	cursor:pointer;
+
+}
+.logo{
+	margin-left:50px;
+	margin-top:5px;
+	overflow:auto;
+}
+.logo p{
+	margin:0px;
+	float:left;
+	size:30px;
+	margin-top:10px;
+	#margin-left:10px;
+}
+.logo p:nth-child(1){
+	
+	font-family:cursive;
+	font-size:45px;
+	color:white;
+}
+.logo p:nth-child(2){
+	font-family:arial;
+	font-size:30px;
+	color:yellow;
+}
+.signup-btn
+{
+	background-color:#1c8adb;
+	width:420px;
+	margin-left:10px;
+	border:none;
+	color:white;
+}
+
+
+.same .page input{
+	margin-bottom:5px;
+	font-size:15px;
+	padding:8px;
+	padding-left:6px;
+	margin-left:15px;
+	margin-top:3px;
+}
+.in-box{
+	width=20%;
+}
+.sign-up-form h2
+{
+	color:black;
+	margin-bottom:15px;
+	font-size:30px;
+}

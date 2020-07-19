@@ -1,0 +1,168 @@
+
+body{
+	padding:0px;
+	margin:0px;
+	background-color:rgb(30,144,255);
+}
+.logo h2{
+	border:1px dashed white;
+	color:white;
+	width:112px;
+	font-size:35px;
+	padding:5px;
+	border-radius:5px;
+}
+.logo{
+	margin-left:5%;
+	padding-left:2px;
+	margin-right:60%;
+}
+.logo{
+	margin-left:50px;
+	margin-top:5px;
+	overflow:auto;
+}
+.logo p{
+	margin:0px;
+	float:left;
+	size:30px;
+	margin-top:10px;
+	#margin-left:10px;
+}
+.logo p:nth-child(1){
+	
+	font-family:cursive;
+	font-size:45px;
+	color:white;
+}
+.logo p:nth-child(2){
+	font-family:arial;
+	font-size:30px;
+	color:yellow;
+}
+.right{
+	width:98%;
+	height:478px;
+	margin-left:1%;
+	margin-right:1%;
+	background-color:rgb(245,241,240);
+	margin-top:1%;
+	padding-top:7%;
+}
+
+.form{
+	width:400px;
+	height:245px;
+	position:relative;
+	left:38%;
+	background-color:white;
+	
+}
+
+input{
+	padding:5px;
+	margin-top:6px;
+	font-size:15px;
+}
+
+table{
+	margin-left:17%;
+	margin-top:3%;
+}
+
+tr td p{
+	float:right;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+tr td p a{
+	text-decoration:none;
+}
+
+.submit{
+	width:271px;
+	font-size:15px;
+	padding:5px;
+	margin-top:4px;
+	background-color:#4DDC1A;
+	border:none;
+	color:white;
+}
+
+.submit:hover{
+	background-color:green;
+}
+
+.account{
+	width:400px;
+	height:90px;
+	position:relative;
+	left:38%;
+	padding-top:0px;
+	margin-top:40px;
+	background-color:white;
+}
+
+.create{
+	width:271px;
+	font-size:15px;
+	padding:5px;
+	margin-top:2px;
+	background-color:rgb(30,144,255);
+	border:none;
+	color:white;
+	margin-left:17%;
+
+}
+.create:hover{
+	background-color:blue;
+}
+
+.account p{
+	display:block;
+	font-size:17px;
+	margin-left:3%;
+}
+
+.logo, .nav{
+	display:inline-block;
+}
+ul{
+	list-style-type:none;
+	margin-right:25px;
+	
+}
+
+ul li{
+	display:inline-block;
+	margin-left:20px;
+	
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:10px 20px 10px 20px;
+	border:1px solid white;
+	transition:0.5s ease;
+	
+}
+
+ul li a:hover{
+	background-color:white;
+	color:black;
+	font-family:cursive;
+	
+}
+
+img{
+	width:80px;
+	height:80px;
+	background:transparent;
+	position:absolute;
+	top:23%;
+	left:48%;
+	
+}
+
+

@@ -1,0 +1,171 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#container{
+	width:90%;
+	height:90vh;
+	margin:2% auto;
+	background-color:white;
+	
+}
+.mess{
+	border-color:black;
+}
+
+.new{
+	width:90%;
+	margin-left:5%;
+	margin-top:5px;
+}
+#menu{
+	width:86%;
+	height:60px;
+	background-color:rgb(30,144,255);
+	color:white;
+	margin-left:5%;
+	font-size:20px;
+	padding-left:50px;
+	padding-top:10px;
+	
+}
+.my{
+	float:left;
+}
+
+#menu a{
+	color:white;
+	font-size:15px;
+}
+
+#left-col{
+	width:24%;
+	height:90%;
+	background-color:white;
+	margin-left:5%;
+	border-bottom:1px solid gray;
+	border-left:1px solid gray;
+	
+}
+
+.extra{
+	float:left;
+}
+
+.extra1{
+	float:right;
+}
+
+
+#right-col{
+	width:65%;
+	height:90%;
+	background-color:rgb(248,248,248);
+}
+
+#left-col,#right-col{
+	display:inline-block;
+	float:left;
+	position:relative;
+	
+}
+
+#left-col-container{
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+
+.done{
+	color:white;
+	border:none;
+	font-size:20px;
+	padding:5px;
+	background-color:green;
+	width:100px;
+	margin-right:3px;
+}
+#block{
+	float:right;
+	margin-top:1%;
+	text-decoration:none;
+	color:white;
+	background-color:#4DDC1A;
+	padding:5px 8px;
+	font-size:20px;
+	color:white;
+	border:5px;
+	margin-right:2%;
+	
+}
+
+#block:hover{
+	background-color:green;
+}
+
+#blockdiv{
+	margin-bottom:5%;
+}
+
+#one{
+	overflow:auto;
+	padding:5px;
+	margin-top:5px;
+	font-size:20px;
+
+}
+#one p{
+	margin-bottom:1px;
+	float:right;
+	margin-right:160px;
+}
+
+.image{
+	margin-right:5px;
+}
+
+#message{
+	height:470px;
+	width:100%;
+	border:1px solid black;
+	overflow:auto;
+}
+
+
+#white,#yellow{
+	margin-bottom:2px;
+	border-radius:5px;
+	border:1px solid gray;
+}
+
+#new-message{
+	display:none;
+	width:500px;
+	position:fixed;
+	top:10%;
+	left:50%;
+	z-index:2;
+	transform:translate(-50%,0);
+	overflow:auto;
+	box-shadow:2px 10px 30px #000000;
+	text-align:center;
+	background-color:white;
+}
+
+#new-message .body{
+	background-color:white;
+}
+
+.wrap{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color:green;
+}
+#temp{
+	float:right;
+	border:1px solid black;
+}
+.command{
+	position:absolute;
+}
